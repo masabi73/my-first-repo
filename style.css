@@ -1,8 +1,48 @@
 div{
-    background-color: cadetblue;
+    background-color: rgb(255, 255, 255);
 }
 h1{
     padding: 10px;
     margin: 5px;
     background-color: chocolate;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(117, 37, 37);
+}
+.navbar-2{
+    font-size: 20px;
+    background-image: linear-gradient(rgb(154, 154, 255),rgb(139, 139, 181),rgb(154, 154, 228));
+    color: azure;
+    margin: 5px;
+    padding: 5px;
+    height:50px;
+    width: 70%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+a{
+    background-color: rgb(197, 230, 219);
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid rgb(109, 109, 247);
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgb(198, 198, 239);
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+.btn{
+    font-size: 20px;
+    padding: 0px 15px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgb(161, 161, 221);
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
 }
